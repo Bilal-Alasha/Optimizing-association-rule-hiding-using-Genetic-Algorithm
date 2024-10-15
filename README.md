@@ -32,3 +32,7 @@ remember that during the code X is refered to as lfh and Y as rhs.
 now the finall part is The process of choosing the best transactions starts from choosing the transactions which the victim item belongs to. These transactions are what the genetic algorithm is going to choose from. The objective function of the genetic algorithm is minimizing the number of lost non-sensitive association rules.
 
 i followed the pseudocode in the proposed algorithm to the best of what i could but my lack of experince before hand with any genetic algorithm made it really hard to do it by the dead line but for the most part it is the same .
+
+
+=======================================================================================================================
+in the new version (1.2) i made sure that the delta function is better and the results are stored in an excel file so i t can be graphed and read , i added some evaluation values too like the accurecy , it is still not perfect and there is few things i know that are wrong or requiere debugging , also the perfomance is really bad now it will not be good to run this code on any DB with more that 10k transactions and even then it's not perfect .
